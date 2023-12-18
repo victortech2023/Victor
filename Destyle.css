@@ -1,0 +1,160 @@
+body{
+  background-color: gold;
+}
+	.container{ 
+	  background-color: blueviolet;
+	  width:400px;
+	  height: 300px;
+	  margin-top: 5px;
+	  margin-left: 5px;
+	  margin-right: 20px;
+	  margin-bottom: 100px;
+	}
+ li{
+  display: inline;
+   font-size: 10px;
+   
+}
+a{
+  color: whitesmoke;
+  text-decoration: none;
+  margin-right: 4px;
+  margin-bottom: 0px;
+  
+}
+a:hover{
+  color: yellow;
+  border: 2px solid;
+  background-color: black;
+  padding: 2px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.first_text{
+  float: left;
+  margin-right: 120px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.second_text{
+  float: right;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.content{
+  padding: 2px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.content h5{
+  color: whitesmoke;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+.content h1{
+  margin-bottom: 0px;
+  color: gold;
+  margin-top: 0px;
+  font-size: 35px;
+  font-weight: bolder-100;
+}
+.content h2{
+  color: white;
+  margin-top: 0px;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.content h6{
+  text-align: justify-all;
+  color: whitesmoke;
+  margin-top: 0px;
+}
+ .container .space{
+  background-color: white;
+  border-radius: 360px;
+  float: right;
+  margin-right: 30px;
+  width: 120px;
+  height: 120px;
+  margin-top: 50px;
+  
+}
+
+.space h1{
+  color: gold;
+  text-transform: none;
+  text-shadow: 5px 2PX 10px;
+  margin-bottom: 8px;
+  margin-right: 0px;
+  font-size: 50px
+}
+
+.space h2{
+  color: whitesmoke;
+  text-transform: none;
+  text-shadow: 5px 5px 10px red;
+  float: right;
+  margin-top: 0px;
+  background-color: red;
+  padding: 5px;
+  border-style: outset;
+  border-color: red;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  height: 20px;
+}
+
+
+.space h3{
+  color: limegreen;
+  text-transform: none;
+  text-shadow: 5px 1px 10px;
+  font-size: 35px;
+  margin-top: 0px;
+  
+  
+}
+
+.space #two{
+  line-height: 10px;
+  padding: 0px;
+}
+
+.first_text h2{
+  color: red;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  float: left;
+}
+h2 #a{
+  color: red;
+}
+h2 #b{
+  color: aqua;
+}
+h2 #c{
+  color: gold;
+}
+.first_text sup{
+  color: whitesmoke;
+  font-size: 6px;
+}
+ .register button{
+  border-color: goldenrod;
+  background-color: blueviolet;
+  float: left;
+   margin-left: 35px;
+   border-radius: 5px;
+}
+.register a{
+  color: goldenrod;
+  cursor: pointer;
+}
+
+@media screen(max-width:480px){
+  body{
+    background-color: red;
+    
+  }
