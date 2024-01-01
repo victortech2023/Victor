@@ -153,12 +153,12 @@ h2 #c{
   cursor: pointer;
 }
 
-@media screen(max-width:480px){
+@media screen(min-width:480px){
   body{
     background-color: red;
     
   }
-.container{ 
+        .container{ 
 	  background-color: darkgreen;
 	  width:400px;
 	  height: 300px;
