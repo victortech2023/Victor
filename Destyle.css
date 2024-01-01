@@ -158,7 +158,7 @@ h2 #c{
     background-color: red;
     
   }
-	  	.container{ 
+.container{ 
 	  background-color: darkgreen;
 	  width:400px;
 	  height: 300px;
@@ -183,3 +183,4 @@ h2 #c{
   color: goldenrod;
   cursor: pointer;
 	  }
+	}
