@@ -158,3 +158,28 @@ h2 #c{
     background-color: red;
     
   }
+	  	.container{ 
+	  background-color: darkgreen;
+	  width:400px;
+	  height: 300px;
+	  margin-top: 5px;
+	  margin-left: 5px;
+	  margin-right: 20px;
+	  margin-bottom: 100px;
+	}
+  li{
+  display: inline;
+   font-size: 10px;
+   
+} 
+  .register button{
+  border-color: goldenrod;
+  background-color: gold;
+  float: left;
+   margin-left: 35px;
+   border-radius: 5px;
+}
+.register a{
+  color: goldenrod;
+  cursor: pointer;
+	  }
